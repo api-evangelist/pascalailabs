@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://pascalailabs.com/security
+summary: >-
+  Pascal AI publishes an enterprise security and compliance posture on its
+  security page. It states SOC 2 Type II, ISO 27001, and GDPR compliance,
+  "audited by independent third parties," with regular third-party penetration
+  tests, encryption in transit and at rest, Azure/AWS hardened infrastructure
+  with network segmentation, VPC / on-premises deployment, RBAC enforcement,
+  and a commitment never to train models on customer proprietary data. No
+  public API specification, security.txt, or trust center portal was found.
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: 'security page: "SOC 2 Type II ... Audited by independent third parties."'
+  - id: iso-27001
+    conforms: true
+    evidence: 'security page: "ISO 27001"'
+  - id: gdpr
+    conforms: true
+    evidence: 'security page: "GDPR"'
+  - id: penetration-testing
+    conforms: true
+    evidence: 'security page: "regular audits and third-party penetration tests"'
+  - id: encryption-in-transit-and-at-rest
+    conforms: true
+    evidence: 'security page: "storage, files transmission, networks, systems ... all are encrypted"'

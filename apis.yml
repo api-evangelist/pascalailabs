@@ -1,21 +1,54 @@
 aid: pascalailabs
-name: Pascalailabs
-description: 'Pascalailabs is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Pascal AI
+description: >-
+  Pascal AI (Pascal AI Labs) is an institutional-finance AI company building
+  context-driven, MCP-native research agents that turn enterprise and market
+  data into investment insights for hedge funds, asset managers, investment
+  banks, and private-markets firms. Pascal sits inside Excel, PowerPoint, Word,
+  email, and the browser through an Agent Control Center, ships 25+ pre-built
+  research agents, maintains a persistent knowledge graph and memory across every
+  document a team has touched, and returns fully cited outputs with RBAC
+  enforcement. It deploys inside the customer VPC or on-premises and exposes an
+  enterprise API & SDK (Python, TypeScript, REST) plus finance-ready MCP
+  connectors. Founded in 2024 in Bangalore, Pascal AI raised a $3.1M seed round
+  in 2025 led by Kalaari Capital with Norwest Venture Partners, Antler, and Info
+  Edge Ventures. It publishes SOC 2 Type II, ISO 27001, and GDPR compliance. No
+  public API specification or developer portal is published; developer surfaces
+  are gated to enterprise customers.
 url: https://raw.githubusercontent.com/api-evangelist/pascalailabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
+- kalaari-capital
+- antler
+- info-edge-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://pascalailabs.com/favicon.ico
 tags:
 - Company
-- Unknown
+- Artificial Intelligence
+- Financial Services
+- Investment Research
+- AI Agents
+- MCP
+- Fintech
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +58,28 @@ maintainers:
 common:
 - type: Website
   url: https://pascalailabs.com
+- type: Product
+  url: https://pascalailabs.com/product
+- type: Security
+  url: https://pascalailabs.com/security
+- type: Compliance
+  url: https://pascalailabs.com/security
+- type: TermsOfService
+  url: https://pascalailabs.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://pascalailabs.com/privacy-policy
+- type: Blog
+  url: https://pascalailabs.com/news
+- type: SignUp
+  url: https://alpha.pascalailabs.com
+- type: DomainSecurity
+  url: security/pascalailabs-domain-security.yml
+- type: Conformance
+  url: conformance/pascalailabs-conformance.yml
+- type: LLMsTxt
+  url: llms/pascalailabs-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
