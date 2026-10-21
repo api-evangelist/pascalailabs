@@ -2,6 +2,11 @@ generated: '2026-10-19'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- https://500.co/api/startups
+- https://500.co/companies
+- https://www.antler.co/portfolio
+- https://www.techstars.com/portfolio
+- https://www.ycombinator.com/companies
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -19,5 +24,33 @@ edges:
   seller_name: Pascal AI Labs
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-19'
+- partner_name: Antler
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.antler.co/portfolio?0b933bfd_page=14
+  category: accelerator portfolio participation
+  contract_reference:
+    register: Antler portfolio (antler.co/portfolio)
+    standard: null
+    spec_file: null
+    role: accelerator-portfolio-company
+    registered_name: Pascal
+    register_id: https://www.antler.co/portfolio?0b933bfd_page=14
+    register_country: India
+    register_website: https://www.pascalailabs.com/
+    matched_domain: pascalailabs.com
+    matched_by: domain
+    signal_note: 'participation only: the accelerator''s own portfolio register lists the company (cohort / investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-accelerator-portfolios.py
+    detected: '2026-10-21'
+    year: '2025'
+    sector: B2B Software
+  detected_by: sweep-accelerator-portfolios.py
+  first_seen: '2026-10-21'
 source:
 - https://azuremarketplace.microsoft.com/
